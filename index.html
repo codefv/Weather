@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="css/style.css" />
+		<script defer src="js/index.js"></script>
+		<title>Weather</title>
+	</head>
+	<body>
+		<div class="group">
+			<nav class="nav-bar">
+				<div class="logo-box">
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						class="logo-icon"
+						viewBox="0 0 512 512"
+					>
+						<title>Cloud</title>
+						<path
+							d="M396 432H136c-36.44 0-70.36-12.57-95.51-35.41C14.38 372.88 0 340 0 304c0-36.58 13.39-68.12 38.72-91.22 18.11-16.53 42.22-28.25 69.18-33.87a16 16 0 0011.37-9.15 156.24 156.24 0 0142.05-56C187.76 91.69 220.5 80 256 80a153.57 153.57 0 01107.14 42.9c24.73 23.81 41.5 55.28 49.18 92a16 16 0 0012.12 12.39C470 237.42 512 270.43 512 328c0 33.39-12.24 60.78-35.41 79.23C456.23 423.43 428.37 432 396 432z"
+						/>
+					</svg>
+					<span class="logo-name">Weather</span>
+				</div>
+				<div class="nav-settings">
+					<div class="choice-group">
+						<button class="temp-choice-c">C</button>
+						<button class="temp-choice-k">K</button>
+					</div>
+					<div class="choice-group">
+						<button class="speed-choice-m">m/s</button>
+						<button class="speed-choice-km">km/h</button>
+					</div>
+				</div>
+			</nav>
+
+			<header class="header">
+				<h1 class="heading-primary">Weather</h1>
+				<h3 class="heading-tertiary">See how's the weather for today!</h3>
+			</header>
+			<section class="section-list">
+				<ul class="container" id="container"></ul>
+			</section>
+		</div>
+
+		<section class="section-widget" id="widget"></section>
+	</body>
+</html>
